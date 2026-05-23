@@ -75,7 +75,7 @@ module.exports = {
       },
       {
         id_klinik: '4b034fee-e779-4fbf-bdae-735074d28520',
-        id_kelas_ruangan: 'be3f3315-0c2c-40d9-907d-fccbd8318ebf', // Kelas 1
+        id_kelas_ruangan: '0f9bfebd-b7f1-48d9-9641-ebe3e9c0787f', // Kelas 1 (Medika)
         jenis_kelamin: 'Semua', // Opsi: Laki-laki, Perempuan, Semua
         usia: 'Dewasa', // Opsi: Anak, Dewasa
         penyakit: 'Semua', // OPSI: Semua, Infeksius, Non-Infeksius
@@ -105,7 +105,7 @@ module.exports = {
       },
       {
         id_klinik: '4b034fee-e779-4fbf-bdae-735074d28520',
-        id_kelas_ruangan: '4b034fee-e779-4fbf-bdae-735074d28520', // Kelas 2
+        id_kelas_ruangan: 'df494065-189e-445b-8179-510657e6fcb1', // Kelas 2 (Medika)
         jenis_kelamin: 'Laki-laki', // Opsi: Laki-laki, Perempuan, Semua
         usia: 'Anak', // Opsi: Anak, Dewasa
         penyakit: 'Non-Infeksius', // OPSI: Semua, Infeksius, Non-Infeksius
