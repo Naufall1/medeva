@@ -8,8 +8,8 @@ export default function AppShell({ children }) {
   const { auth, logout } = useAuth()
   const location = useLocation()
   const clinicName = auth?.user?.klinik || 'Klinik'
-  const displayName = auth?.user?.name || auth?.user?.username || 'Tenaga Medis'
-  const roleName = auth?.user?.role || 'Manager'
+  const displayName = auth?.user?.nama_lengkap || auth?.user?.name || auth?.user?.username || 'Tenaga Medis'
+  const roleName = auth?.user?.is_admin ? 'Admin' : 'User'
   const breadcrumb = location.pathname.startsWith('/ruangan')
     ? ['Rawat Inap', 'Pengaturan Kategori Ruangan']
     : null
